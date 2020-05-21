@@ -10,10 +10,5 @@
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
-    <option name="TEMPLATE_FOLDERS">
-      <list>
-        <option value="$MODULE_DIR$/../mission_to_mars_flask\templates" />
-      </list>
-    </option>
   </component>
 </module>
