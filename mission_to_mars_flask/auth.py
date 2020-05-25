@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template
-from . import db
+from mission_to_mars_flask import db
 
-auth = Blueprint('auth', __name__)
+auth = Blueprint('auth', __name__, template_folder="../templates")
 
 
 @auth.route('/login')

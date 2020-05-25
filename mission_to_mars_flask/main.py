@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template
-from . import db
+from mission_to_mars_flask import db
 
-main = Blueprint('main', __name__)
+main = Blueprint('main', __name__, template_folder="../templates")
 
 
 @main.route('/')
