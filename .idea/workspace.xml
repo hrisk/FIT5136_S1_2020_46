@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6df66596-c14b-4600-95f9-5809edd33160" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/FIT5136_S1_2020_46.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FIT5136_S1_2020_46.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +209,7 @@
       <workItem from="1590477251914" duration="7353000" />
       <workItem from="1590633874521" duration="13040000" />
       <workItem from="1590654343575" duration="3655000" />
-      <workItem from="1590662548613" duration="3751000" />
+      <workItem from="1590662548613" duration="8390000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <created>1589948039182</created>
@@ -341,10 +342,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1590654377017" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590651207369">
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590674039814">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1590651207369" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1590674039814" />
     <state x="670" y="328" key="git4idea.merge.GitPullDialog" timestamp="1590115523236">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

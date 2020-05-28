@@ -12,6 +12,8 @@
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="jquery-3.5.1" level="application" />
     <orderEntry type="library" name="modernizr" level="application" />
+    <orderEntry type="library" name="popper-base" level="application" />
+    <orderEntry type="library" name="bootstrap-datetimepicker" level="application" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="pytest" />
