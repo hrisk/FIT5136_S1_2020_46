@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6df66596-c14b-4600-95f9-5809edd33160" name="Default Changelist" comment="" />
+    <list default="true" id="6df66596-c14b-4600-95f9-5809edd33160" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/feature1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_employee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/login.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,11 +71,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\templates" />
       <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask" />
       <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\img" />
       <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\db" />
       <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\controllers" />
-      <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46" />
     </key>
   </component>
   <component name="RunManager" selected="Python.setup">
@@ -201,7 +211,8 @@
       <workItem from="1589947641690" duration="814000" />
       <workItem from="1590405442635" duration="11714000" />
       <workItem from="1590477251914" duration="7353000" />
-      <workItem from="1590633874521" duration="11009000" />
+      <workItem from="1590633874521" duration="13040000" />
+      <workItem from="1590654343575" duration="3520000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <created>1589948039182</created>
@@ -257,10 +268,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590115609497" />
-    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590650211947">
+    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590656420727">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1590650211947" />
+    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1590656420727" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590474391476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -269,10 +280,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="426" y="199" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1590478642114" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1590651244569">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1590658313778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590651244569" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590658313778" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1590412761525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -318,10 +329,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1590637689236" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590633932591">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590654370418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590633932591" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590654370418" />
+    <state x="372" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590654377017">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="372" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1590654377017" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590651207369">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
