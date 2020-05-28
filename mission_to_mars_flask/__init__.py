@@ -1,12 +1,9 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-# import auth
-# from sqlalchemy import create_engine
+from flask_login import LoginManager
 
 # init SQLAlchemy so we can use it later in our models
 db = SQLAlchemy()
-# engine = create_engine()
-# print(engine.table_names())
 
 
 def create_app():
@@ -17,12 +14,29 @@ def create_app():
 
     db.init_app(app)
 
+    login_manager = LoginManager()
+    login_manager.login_view = 'auth.login'
+    login_manager.init_app(app)
+
+    from .models import User
+
+    @login_manager.user_loader
+    def load_user(user_id):
+        # since the user_id is just the primary key of our user table, use it in the query for the user
+        return User.query.get(int(user_id))
+
+    from .model_employee import Employee
+
+    @login_manager.user_loader
+    def load_user(employee_id):
+        return Employee.query.get(int(employee_id))
+
     # blueprint for auth routes in our app
-    import auth as auth_blueprint
+    from .auth import auth as auth_blueprint
     app.register_blueprint(auth_blueprint)
 
     # blueprint for non-auth parts of app
-    import main as main_blueprint
+    from .main import main as main_blueprint
     app.register_blueprint(main_blueprint)
 
     return app

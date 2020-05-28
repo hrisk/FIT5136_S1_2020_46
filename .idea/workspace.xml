@@ -19,22 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6df66596-c14b-4600-95f9-5809edd33160" name="Default Changelist" comment="">
+    <list default="true" id="6df66596-c14b-4600-95f9-5809edd33160" name="Default Changelist" comment="nothing major, some changes to setup templates">
+      <change afterPath="$PROJECT_DIR$/mission_to_mars_flask/db/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/FIT5136_S1_2020_46.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FIT5136_S1_2020_46.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/.idea/mission_to_mars_flask.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/ReadMe.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/controllers/mission_to_mars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/feature1.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/feature1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/models/Models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +53,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -58,7 +62,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1c9jKd9Qi9YSFFZQInNq8qfzx6X" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,16 +75,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mission_to_mars_flask/app.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\controllers" />
       <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask" />
+      <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\img" />
+      <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\db" />
+      <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\controllers" />
       <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__init__">
+  <component name="RunManager" selected="Python.setup">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FIT5136_S1_2020_46" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,8 +154,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FIT5136_S1_2020_46" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\FatandSmile\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mission_to_mars_flask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FIT5136_S1_2020_46" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\FatandSmile\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mission_to_mars_flask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\db\setup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.setup" />
+        <item itemvalue="Python.models" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.app" />
       </list>
@@ -163,7 +218,9 @@
       <option name="presentableId" value="Default" />
       <updated>1589947640291</updated>
       <workItem from="1589947641690" duration="814000" />
-      <workItem from="1590405442635" duration="1377000" />
+      <workItem from="1590405442635" duration="11714000" />
+      <workItem from="1590477251914" duration="7353000" />
+      <workItem from="1590633874521" duration="10745000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <created>1589948039182</created>
@@ -172,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589948039182</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first draft">
+      <created>1590406915775</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590406915775</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,42 +268,99 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590115609497" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1589948038652">
+    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590650211947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589948038652" />
-    <state x="651" y="156" key="FileChooserDialogImpl" timestamp="1590115454906">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1590650211947" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590474391476">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589948455595" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590474391476" />
+    <state x="426" y="199" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590478642114">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="426" y="199" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1590478642114" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1590406977989">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590406977989" />
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1590412761525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590412761525" />
     <state x="651" y="156" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1590115454906" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590406756334">
+    <state width="1323" height="158" key="GridCell.Tab.0.bottom" timestamp="1590633847065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590406756334" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590406756334">
+    <state width="1323" height="158" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590633847065" />
+    <state width="1323" height="158" key="GridCell.Tab.0.center" timestamp="1590633847065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590406756334" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590406756334">
+    <state width="1323" height="158" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590633847065" />
+    <state width="1323" height="158" key="GridCell.Tab.0.left" timestamp="1590633847065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590406756334" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590406756334">
+    <state width="1323" height="158" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590633847065" />
+    <state width="1323" height="158" key="GridCell.Tab.0.right" timestamp="1590633847065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590406756334" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1590405491997">
+    <state width="1323" height="158" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590633847065" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1590477203880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590405491997" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590477203880" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1590477203880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590477203880" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1590477203880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590477203880" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1590477203880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590477203880" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1590634017849">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590634017849" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1590637689236">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1590637689236" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590633932591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590633932591" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590651207369">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1590651207369" />
     <state x="670" y="328" key="git4idea.merge.GitPullDialog" timestamp="1590115523236">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="670" y="328" key="git4idea.merge.GitPullDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590115523236" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1590647869651">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590647869651" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FIT5136_S1_2020_46$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1590406512424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mission_to_mars_flask" />
-    <SUITE FILE_PATH="coverage/FIT5136_S1_2020_46$app.coverage" NAME="app Coverage Results" MODIFIED="1590406386025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mission_to_mars_flask" />
+    <SUITE FILE_PATH="coverage/FIT5136_S1_2020_46$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1590474448857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mission_to_mars_flask" />
+    <SUITE FILE_PATH="coverage/FIT5136_S1_2020_46$Models.coverage" NAME="Models Coverage Results" MODIFIED="1590477120314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mission_to_mars_flask" />
+    <SUITE FILE_PATH="coverage/FIT5136_S1_2020_46$setup.coverage" NAME="setup Coverage Results" MODIFIED="1590478694312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mission_to_mars_flask" />
+    <SUITE FILE_PATH="coverage/FIT5136_S1_2020_46$app.coverage" NAME="app Coverage Results" MODIFIED="1590407777393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mission_to_mars_flask" />
   </component>
 </project>
