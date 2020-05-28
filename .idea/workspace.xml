@@ -21,14 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6df66596-c14b-4600-95f9-5809edd33160" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/feature1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_employee.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +207,8 @@
       <workItem from="1590405442635" duration="11714000" />
       <workItem from="1590477251914" duration="7353000" />
       <workItem from="1590633874521" duration="13040000" />
-      <workItem from="1590654343575" duration="3520000" />
+      <workItem from="1590654343575" duration="3655000" />
+      <workItem from="1590662548613" duration="3751000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <created>1589948039182</created>
@@ -235,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590651245386</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added feature 1 to routes">
+      <created>1590658322474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590658322474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +260,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first draft" />
     <MESSAGE value="Login and Signup for employees is working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login and Signup for employees is working" />
+    <MESSAGE value="Added feature 1 to routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added feature 1 to routes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Notifications" timestamp="1589947964706">
@@ -329,10 +333,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1590637689236" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590654370418">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590662555594">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590654370418" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590662555594" />
     <state x="372" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590654377017">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

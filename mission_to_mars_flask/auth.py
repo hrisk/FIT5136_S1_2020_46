@@ -12,7 +12,7 @@ user_type = ['Employee', 'Candidate']
 
 
 @auth.route(rule='/login', methods=['GET', 'POST'])
-def employee_login():
+def login():
     if request.method == 'POST':
         email = request.form.get('email')
         password = request.form.get('password')
@@ -36,7 +36,7 @@ def employee_login():
 
 
 @auth.route(rule='/signup', methods=['GET', 'POST'])
-def employee_signup():
+def signup():
     if request.method == 'POST':
         email = request.form.get('email')
         name = request.form.get('name')
