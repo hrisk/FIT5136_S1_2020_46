@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6df66596-c14b-4600-95f9-5809edd33160" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/FIT5136_S1_2020_46.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FIT5136_S1_2020_46.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_candidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_candidate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,13 +260,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first draft" />
@@ -335,10 +336,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590477203880" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1590902685804">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="241" y="32" key="SettingsEditor" timestamp="1590907000217">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590902685804" />
+    <state x="241" y="32" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1590907000217" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1590637689236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -355,10 +357,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1590654377017" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590902822344">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="645" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590909295441">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1590902822344" />
+    <state x="645" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1590909295441" />
+    <state x="494" y="327" width="604" height="490" key="find.popup" timestamp="1590908423017">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="494" y="327" width="604" height="490" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1590908423017" />
     <state x="670" y="328" key="git4idea.merge.GitPullDialog" timestamp="1590115523236">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
