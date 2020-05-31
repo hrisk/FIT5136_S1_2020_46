@@ -42,13 +42,13 @@
             <tr>
                 {% for shuttle_detail in shuttle_details %}
                 <th scope="row"><label class="radio"> <input type="radio" name="shuttle-selected"></label></th>
-                <td scope="col">shuttle_detail.name</td>
-                <td scope="col">shuttle_detail.manufacturing_year</td>
-                <td scope="col">shuttle_detail.fuel_capacity</td>
-                <td scope="col">shuttle_detail.payload_capacity</td>
-                <td scope="col">shuttle_detail.passenger_capacity</td>
-                <td scope="col">shuttle_detail.cargo_capacity</td>
-                <td scope="col">shuttle_detail.travel_speed</td>
+                <td scope="col">{{ shuttle_detail.name }}</td>
+                <td scope="col">{{ shuttle_detail.manufacturing_year }}</td>
+                <td scope="col">{{ shuttle_detail.fuel_capacity }}</td>
+                <td scope="col">{{ shuttle_detail.payload_capacity }}</td>
+                <td scope="col">{{ shuttle_detail.passenger_capacity }}</td>
+                <td scope="col">{{ shuttle_detail.cargo_capacity }}</td>
+                <td scope="col">{{ shuttle_detail.travel_speed }}</td>
                 {% endfor %}
             </tr>
             <tr>

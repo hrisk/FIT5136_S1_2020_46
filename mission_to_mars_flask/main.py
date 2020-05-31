@@ -24,12 +24,16 @@ def profile():
 
 @main.route(rule='/shuttle')
 def shuttle():
-    mission_list = ['Mission A', 'Mission B']
-    shuttle_list = ['Shuttle A', 'Shuttle B']
-    return render_template(template_name_or_list='feature2.html', mission_list=mission_list, shuttle_list=shuttle_list)
+    mission_list = ['Mission A', 'Mission B', 'Mission C']
+    shuttle_list = ['Shuttle A', 'Shuttle B', 'Shuttle C']
+    shuttle_details = {'name': 'Krishna'}
+    return render_template(template_name_or_list='feature2.html', mission_list=mission_list, shuttle_list=shuttle_list,
+                           shuttle_details=shuttle_details)
 
 
 # TODO: proper error handler
 @main.errorhandler(404)
 def not_found(e):
     return render_template(template_name_or_list='404.html')
+
+
