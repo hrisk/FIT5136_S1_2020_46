@@ -1,6 +1,6 @@
 from flask_login import UserMixin
 from . import db
-import datetime
+from datetime import datetime
 
 
 # TODO: finish the candidate model and add the relevant columns in database
@@ -14,7 +14,7 @@ class Candidate(UserMixin, db.Model):
     candidate_phone = db.Column(db.String(20), unique=True, nullable=False)
     candidate_identification_type = db.Column(db.String(10), nullable=False)
     candidate_gender = db.Column(db.String(10), nullable=False)
-    candidate_allergies = db.Column(db.String(20, nullable=False))
+    candidate_allergies = db.Column(db.String(20), nullable=False)
     candidate_food_preference = db.Column(db.String(20), nullable=False)
     candidate_qualification = db.Column(db.String(20))
     candidate_experience = db.Column(db.String(20))

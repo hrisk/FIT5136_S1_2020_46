@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6df66596-c14b-4600-95f9-5809edd33160" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/FIT5136_S1_2020_46.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FIT5136_S1_2020_46.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_candidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_candidate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +210,7 @@
       <workItem from="1590721585304" duration="1601000" />
       <workItem from="1590724590956" duration="92000" />
       <workItem from="1590751431317" duration="109000" />
-      <workItem from="1590902607087" duration="91000" />
+      <workItem from="1590902607087" duration="549000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <created>1589948039182</created>
@@ -244,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590658322474</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="latest code commit">
+      <created>1590902847843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590902847843</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +270,8 @@
     <MESSAGE value="first draft" />
     <MESSAGE value="Login and Signup for employees is working" />
     <MESSAGE value="Added feature 1 to routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added feature 1 to routes" />
+    <MESSAGE value="latest code commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest code commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Notifications" timestamp="1589947964706">
@@ -290,10 +294,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="426" y="199" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1590478642114" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1590658321469">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1590902847004">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590658321469" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590902847004" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1590412761525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
