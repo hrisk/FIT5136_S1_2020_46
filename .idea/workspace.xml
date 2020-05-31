@@ -20,17 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6df66596-c14b-4600-95f9-5809edd33160" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/FIT5136_S1_2020_46.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FIT5136_S1_2020_46.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/config.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_candidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_candidate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature1.add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature_add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +219,7 @@
       <workItem from="1590721585304" duration="1601000" />
       <workItem from="1590724590956" duration="92000" />
       <workItem from="1590751431317" duration="109000" />
-      <workItem from="1590902607087" duration="4407000" />
+      <workItem from="1590902607087" duration="7588000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <created>1589948039182</created>
@@ -299,10 +299,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590115609497" />
-    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590656420727">
+    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590911374274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1590656420727" />
+    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1590911374274" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590474391476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

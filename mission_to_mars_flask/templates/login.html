@@ -1,9 +1,12 @@
 {% extends "base.html" %}
 
+{% block title %} - login {% endblock %}
+
 {% block content %}
 <div class="column is-4 is-offset-4">
     <h3 class="title">Login</h3>
     <div class="box">
+        <!--        Show if there are any errors        -->
         {% with messages = get_flashed_messages() %}
         {% if messages %}
         <div class="notification is-danger">
@@ -11,6 +14,7 @@
         </div>
         {% endif %}
         {% endwith %}
+        <!--        Login form      -->
         <form method="POST" action="/login">
             <div class="field">
                 <div class="control">
@@ -36,18 +40,17 @@
                 <a href="#" class="pull-right password-reset-link"><b>Forgot password?</b></a>
             </div>
             <hr>
-            <div class="field">
-                <p>Dont have an account?</p>
-            </div>
-            <a href="{{ url_for('auth.signup') }}">
-                <button class="button is-block is-info is-large is-fullwidth">
-                    Register
-                </button>
-            </a>
-
         </form>
+        <!--        register if you don't have an account   -->
+        <div>
+            <p>Dont have an account?</p>
+        </div>
+        <a href="{{ url_for('auth.signup') }}">
+            <button class="button is-block is-info is-large is-fullwidth">
+                Register
+            </button>
+        </a>
     </div>
 </div>
 
-<script>
-{% endblock %}
+{%endblock %}
