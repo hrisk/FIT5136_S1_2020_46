@@ -4,13 +4,14 @@ from flask_login import LoginManager
 
 # init SQLAlchemy so we can use it later in our models
 db = SQLAlchemy()
+db_name = 'mission_to_mars'
 
 
 def create_app():
     app = Flask(__name__)
 
     app.config['SECRET_KEY'] = '9OLWxND4o83j4K4iuopO'
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/mission_to_mars'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/' + db_name
 
     db.init_app(app)
 

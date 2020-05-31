@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
+  <component name="Flask">
+    <option name="enabled" value="true" />
+  </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/mission_to_mars_flask" isTestSource="false" />
@@ -15,6 +18,7 @@
     <orderEntry type="library" name="modernizr" level="application" />
     <orderEntry type="library" name="popper-base" level="application" />
     <orderEntry type="library" name="bootstrap-datetimepicker" level="application" />
+    <orderEntry type="library" name="jquery-2.2.0" level="application" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="pytest" />
