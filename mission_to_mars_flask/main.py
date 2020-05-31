@@ -4,7 +4,6 @@ from . import db
 
 main = Blueprint(name='main', import_name=__name__, template_folder="templates")
 
-
 @main.route(rule='/')
 def index():
     return render_template(template_name_or_list='index.html')
