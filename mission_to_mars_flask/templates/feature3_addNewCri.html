@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <title>Add New Criteria</title>
+    <style>
+        .form-control{
+        font-size:16px;
+        }
+        .table-borderless{
+        font-size: 15px;
+        }
+    </style>
+
+
+  <body>
+  <div class="container">
+  <h1 align="center">Add New Criteria</h1>
+  <div class="col-md-auto">
+  <table class="table table-borderless">
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" class="form-control" id="inputcritname" placeholder="Enter the criteria">
+                </td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td>
+                    <input type="text" class="form-control" id="inputcridesc" placeholder="Input Description">
+                </td>
+            </tr>
+
+            <tr>
+            <td>column</td>
+            <td>
+             <select class="form-control" id="colselection">
+                 {% for col in col_list %}
+                    <option>{{ col }}</option>
+                 {% endfor %}
+             </select>
+            <td>
+            </tr>
+            <tr>
+                <td>Type</td>
+                <td>
+                <select class="form-control" id="typeselect">
+                <option>Range</option>
+                <option>Checkboxes</option>
+                <option>Radio Boxes</option>
+                </select>
+                </td>
+            </tr>
+</table>
+</div>
+
+</div>
+  </body>
+  </html>
+
+{% endblock %}
