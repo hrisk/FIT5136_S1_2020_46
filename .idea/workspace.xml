@@ -20,19 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6df66596-c14b-4600-95f9-5809edd33160" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_candidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_candidate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_cargo.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_cargo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_employee.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_mission.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_mission.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_shuttle.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_shuttle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/add_mission.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/add_mission.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature5.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +219,7 @@
       <workItem from="1591278947559" duration="15913000" />
       <workItem from="1591446983347" duration="28711000" />
       <workItem from="1591478641728" duration="9000" />
-      <workItem from="1591516584924" duration="8481000" />
+      <workItem from="1591516584924" duration="10487000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <created>1589948039182</created>
@@ -272,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591525726511</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="latest code commit">
+      <created>1591525914776</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591525914777</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

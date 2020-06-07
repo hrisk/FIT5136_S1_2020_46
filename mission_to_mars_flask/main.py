@@ -29,6 +29,7 @@ def profile():
 
 
 @main.route(rule='/shuttle/')
+@login_required
 def shuttle():
     mission_list = Mission.query.all()
     shuttle_details = Shuttle.query.all()
@@ -37,6 +38,7 @@ def shuttle():
 
 
 @main.route(rule='/create-mission')
+@login_required
 def create_mission():
     coords = [{}]
     cargo_list = [{}]
@@ -44,17 +46,20 @@ def create_mission():
 
 
 @main.route(rule='/add-criteria')
+@login_required
 def add_criteria():
     col_list = []
     return render_template(template_name_or_list='feature3_addNewCri.html', col_list=col_list)
 
 
 @main.route(rule='/candidate-list')
+@login_required
 def candidate_list():
     return render_template(template_name_or_list='feature5.html')
 
 
 @main.route(rule='/selection-criteria')
+@login_required
 def criteria_selection():
     medical = [{}]
     criminal = [{}]
