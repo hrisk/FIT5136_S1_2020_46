@@ -294,11 +294,8 @@
         </div>
         <div class="form-group row">
             <label for="launchDate" class="col-sm-1 col-form-label">Launch Date</label>
-            <div class='field date' id='datetimepicker3'>
-                <input type='text' class="form-control"/>
-                <span class="input-group-addon">
-                    <span class="glyphicon glyphicon-time"></span>
-                </span>
+            <div class='field'>
+                <input type='date' class="form-control" name="launchDate"/>
             </div>
             <!--            TODO: max and min based on database-->
             <label for="duration" class="col-sm-2 col-form-label">Mission Duration</label>
@@ -320,7 +317,7 @@
     </form>
 </div>
 
-<form type="POST" , action="#">
+<form method="POST" , action="#">
     <div class="form-group row float-left">
         <div class="col-md-4">
             <a href="{{ url_for('main.create_mission') }}">
@@ -339,12 +336,11 @@
             <!-- Table head -->
             <thead>
             <tr>
-<!--                <th>-->
-<!--&lt;!&ndash;                    <div class="custom-control custom-checkbox">&ndash;&gt;-->
-<!--&lt;!&ndash;                        <input type="checkbox" class="custom-control-input" id="tableDefaultCheck1">&ndash;&gt;-->
-<!--&lt;!&ndash;                        <label class="custom-control-label" for="tableDefaultCheck1"></label>&ndash;&gt;-->
-<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
-<!--                </th>-->
+                <th>
+                          <input type="checkbox" class="selectAll" name="selectAll" value="all">
+
+                </th>
+                <!--                <th></th>-->
                 <th>Operations</th>
                 <th>Name</th>
                 <th>Description</th>
@@ -364,13 +360,14 @@
             <tbody>
             {% for mission_detail in mission_details %}
             <tr>
-<!--                <td>-->
-<!--                    &lt;!&ndash; Default unchecked &ndash;&gt;-->
-<!--                    <div class="custom-control custom-checkbox">-->
-<!--                        <input type="checkbox" class="custom-control-input" id="tableDefaultCheck2" checked>-->
-<!--                        <label class="custom-control-label" for="tableDefaultCheck2"></label>-->
-<!--                    </div>-->
-<!--                </td>-->
+                <!--                <td>-->
+                <!--                    &lt;!&ndash; Default unchecked &ndash;&gt;-->
+                <!--                    <div class="custom-control custom-checkbox">-->
+                <!--                        <input type="checkbox" class="custom-control-input" id="tableDefaultCheck2" checked>-->
+                <!--                        <label class="custom-control-label" for="tableDefaultCheck2"></label>-->
+                <!--                    </div>-->
+                <!--                </td>-->
+                <td></td>
                 <td>
                     <a class="has-text-link" href="">Edit</a>
                     <a class="has-text-link" href="{{ url_for('main.shuttle') }}/{{mission_detail.mission_id}}">Select_shuttle</a>
@@ -392,26 +389,26 @@
                 <td>Planning phase</td>
             </tr>
             {% endfor %}
-<!--            <tr>-->
-<!--                <th scope="row">-->
-<!--                    &lt;!&ndash; Default unchecked &ndash;&gt;-->
-<!--                    <div class="custom-control custom-checkbox">-->
-<!--                        <input type="checkbox" class="custom-control-input" id="tableDefaultCheck3">-->
-<!--                        <label class="custom-control-label" for="tableDefaultCheck3"></label>-->
-<!--                    </div>-->
-<!--                </th>-->
+            <!--            <tr>-->
+            <!--                <th scope="row">-->
+            <!--                    &lt;!&ndash; Default unchecked &ndash;&gt;-->
+            <!--                    <div class="custom-control custom-checkbox">-->
+            <!--                        <input type="checkbox" class="custom-control-input" id="tableDefaultCheck3">-->
+            <!--                        <label class="custom-control-label" for="tableDefaultCheck3"></label>-->
+            <!--                    </div>-->
+            <!--                </th>-->
 
-<!--            </tr>-->
-<!--            <tr>-->
-<!--                <th scope="row">-->
-<!--                    &lt;!&ndash; Default unchecked &ndash;&gt;-->
-<!--                    <div class="custom-control custom-checkbox">-->
-<!--                        <input type="checkbox" class="custom-control-input" id="tableDefaultCheck4">-->
-<!--                        <label class="custom-control-label" for="tableDefaultCheck4"></label>-->
-<!--                    </div>-->
-<!--                </th>-->
+            <!--            </tr>-->
+            <!--            <tr>-->
+            <!--                <th scope="row">-->
+            <!--                    &lt;!&ndash; Default unchecked &ndash;&gt;-->
+            <!--                    <div class="custom-control custom-checkbox">-->
+            <!--                        <input type="checkbox" class="custom-control-input" id="tableDefaultCheck4">-->
+            <!--                        <label class="custom-control-label" for="tableDefaultCheck4"></label>-->
+            <!--                    </div>-->
+            <!--                </th>-->
 
-<!--            </tr>-->
+            <!--            </tr>-->
             </tbody>
             <!-- Table body -->
         </table>
