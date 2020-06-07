@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %} - criteria selection {% endblock %}
+{% block content %}
+<div class="box">
+    <form method="post" action="">
+        <div class="form-inline form-group form-row">
+            <label for="medicalRecords" class="col-sm-1 col-form-label">Medical</label>
+            <div class="field">
+                <div class="control">
+                    <input type="text" class="form-control" id="launchDate" placeholder="medical"
+                           name="medicalRecords">
+                </div>
+            </div>
+        </div>
+        <div class="form-inline form-group form-row">
+            <label for="criminalRecords" class="col-sm-1 col-form-label">Criminal</label>
+            <div class="field">
+                <div class="control">
+                    <input type="text" class="form-control" placeholder="Criminal"
+                           name="criminalRecords">
+                </div>
+            </div>
+        </div>
+        <div class="form-inline form-group form-row">
+            <label for="medicalRecords" class="col-sm-1 col-form-label">Age</label>
+            <div class="field">
+                <div class="control">
+                    <input type="number" class="form-control" min="0" name="ageMin" placeholder="min"> Years
+                    <input type="number" class="form-control" max="100" name="ageMax" placeholder="max"> Years
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <button type="submit" class="btn btn-primary is-large">Select Candidates</button>
+        </div>
+    </form>
+</div>
+{% endblock %}`
