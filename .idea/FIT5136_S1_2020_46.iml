@@ -8,9 +8,10 @@
       <sourceFolder url="file://$MODULE_DIR$/mission_to_mars_flask" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mission_to_mars_flask/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mission_to_mars_flask/static" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="bulma" level="application" />
     <orderEntry type="library" name="bootstrap" level="application" />
@@ -19,6 +20,17 @@
     <orderEntry type="library" name="popper-base" level="application" />
     <orderEntry type="library" name="bootstrap-datetimepicker" level="application" />
     <orderEntry type="library" name="jquery-2.2.0" level="application" />
+    <orderEntry type="library" name="select2" level="application" />
+    <orderEntry type="library" name="select.dataTables" level="application" />
+    <orderEntry type="library" name="dataTables.select" level="application" />
+    <orderEntry type="library" name="jquery.dataTables" level="application" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/mission_to_mars_flask/templates" />
+      </list>
+    </option>
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="pytest" />

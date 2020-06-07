@@ -8,7 +8,7 @@
             <div class="dropdown float-left ">
                 <select class="form-control" id="exampleFormControlSelect1">
                     {% for mission in mission_list %}
-                    <option>{{ mission }}</option>
+                    <option>{{ mission.mission_name }}</option>
                     {% endfor %}
                 </select>
             </div>
@@ -16,63 +16,49 @@
         <div class="col">
             <div class="dropdown float-right">
                 <select class="form-control" id="exampleFormControlSelect2">
-                    {% for shuttle in shuttle_list %}
-                    <option>{{ shuttle }}</option>
+                    {% for shuttle in shuttle_details %}
+                    <option>{{ shuttle.shuttle_name}}</option>
                     {% endfor %}
                 </select>
             </div>
         </div>
     </div>
-    <br> <br>
-    <div class="container">
+    <br>
+    <div class="box">
         <div class="row">
-            <table class="table table-hover">
+            <table class="display table table-responsive" style="border-radius: 10px;" id="shuttle_table">
                 <thead>
                 <tr>
-                    <th scope="col">Select</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Manufacturing Year</th>
-                    <th scope="col">Fuel Capacity</th>
-                    <th scope="col">Payload Capacity</th>
-                    <th scope="col">Passenger Capacity</th>
-                    <th scope="col">Cargo Capacity</th>
-                    <th scope="col">TravelSpeed</th>
+                    <th >Select</th>
+                    <th >Name</th>
+                    <th >Manufacturing Year</th>
+                    <th >Fuel Capacity</th>
+                    <th >Cargo Capacity</th>
+                    <th >Passenger Capacity</th>
+                    <th >Shuttle Origin </th>
+                    <th >Travel Speed</th>
                 </tr>
                 </thead>
                 <tbody>
+                {% for shuttle_detail in shuttle_details %}
                 <tr>
-                    {% for shuttle_detail in shuttle_details %}
-                    <th scope="row"><label class="radio"> <input type="radio" name="shuttle-selected"></label></th>
-                    <td scope="col">{{ shuttle_detail.name }}</td>
-                    <td scope="col">{{ shuttle_detail.manufacturing_year }}</td>
-                    <td scope="col">{{ shuttle_detail.fuel_capacity }}</td>
-                    <td scope="col">{{ shuttle_detail.payload_capacity }}</td>
-                    <td scope="col">{{ shuttle_detail.passenger_capacity }}</td>
-                    <td scope="col">{{ shuttle_detail.cargo_capacity }}</td>
-                    <td scope="col">{{ shuttle_detail.travel_speed }}</td>
-                    {% endfor %}
+                    <td></td>
+                    <td >{{ shuttle_detail.shuttle_name }}</td>
+                    <td >{{ shuttle_detail.shuttle_manufacture_year }}</td>
+                    <td >{{ shuttle_detail.shuttle_fuel_capacity }}</td>
+                    <td >{{ shuttle_detail.shuttle_cargo_capacity }}</td>
+                    <td >{{ shuttle_detail.shuttle_passenger_capacity }}</td>
+                    <td >{{ shuttle_detail.shuttle_origin }}</td>
+                    <td >{{ shuttle_detail.shuttle_speed }}</td>
                 </tr>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Larry the Bird</td>
-                    <td>I am Krishna</td>
-                    <td>@twitter</td>
-                </tr>
+                {% endfor %}
                 </tbody>
             </table>
         </div>
     </div>
+    <div class="row float-right">
+        <button type="submit" class="btn btn-primary btn-s">Submit</button>
+    </div>
+
 </form>
 {% endblock %}

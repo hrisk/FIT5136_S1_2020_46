@@ -1,3 +1,5 @@
+sqlalchemy
 werkzeug
+pymysql
 flask
 flask-login

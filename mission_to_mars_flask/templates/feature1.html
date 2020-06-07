@@ -294,11 +294,8 @@
         </div>
         <div class="form-group row">
             <label for="launchDate" class="col-sm-1 col-form-label">Launch Date</label>
-            <div class='field date' id='datetimepicker3'>
-                <input type='text' class="form-control"/>
-                <span class="input-group-addon">
-                    <span class="glyphicon glyphicon-time"></span>
-                </span>
+            <div class='field'>
+                <input type='date' class="form-control" name="launchDate"/>
             </div>
             <!--            TODO: max and min based on database-->
             <label for="duration" class="col-sm-2 col-form-label">Mission Duration</label>
@@ -320,7 +317,7 @@
     </form>
 </div>
 
-<form type="POST" , action="#">
+<form method="POST" , action="#">
     <div class="form-group row float-left">
         <div class="col-md-4">
             <a href="{{ url_for('main.create_mission') }}">
@@ -335,85 +332,89 @@
     <hr style="visibility: hidden">
     <!-- Table  -->
     <div class="box">
-        <table class="table-bordered table-responsive table">
+        <table class="table-bordered table-responsive table" style="" id="mission_list">
             <!-- Table head -->
             <thead>
             <tr>
                 <th>
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="tableDefaultCheck1">
-                        <label class="custom-control-label" for="tableDefaultCheck1"></label>
-                    </div>
+                    <input type="checkbox" class="selectAll" name="selectAll" value="all">
                 </th>
+                <!--                <th></th>-->
+                <th>Operations</th>
                 <th>Name</th>
                 <th>Description</th>
                 <th>Country of Origin</th>
                 <th>Countries allowed</th>
                 <th>Coordinator name & Contact</th>
-                <th>Job desc</th>
+                <th>Employment Requirements</th>
                 <th>Cargo Req</th>
                 <th>Launch Date</th>
                 <th>Location</th>
                 <th>Duration</th>
                 <th>Status</th>
-                <th>Operations</th>
             </tr>
             </thead>
             <!-- Table head -->
-
             <!-- Table body -->
             <tbody>
+            {% for mission_detail in mission_details %}
             <tr>
-                <th scope="row">
-                    <!-- Default unchecked -->
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="tableDefaultCheck2" checked>
-                        <label class="custom-control-label" for="tableDefaultCheck2"></label>
-                <td>Mark</td>
-                <td>Go to mars and find oxygen</td>
-                <td>Australia</td>
-                <td>China, India, Japan</td>
-                <td>Joey +61411123123</td>
-                <td>find oxygen</td>
+                <!--                <td>-->
+                <!--                    &lt;!&ndash; Default unchecked &ndash;&gt;-->
+                <!--                    <div class="custom-control custom-checkbox">-->
+                <!--                        <input type="checkbox" class="custom-control-input" id="tableDefaultCheck2" checked>-->
+                <!--                        <label class="custom-control-label" for="tableDefaultCheck2"></label>-->
+                <!--                    </div>-->
+                <!--                </td>-->
+                <td></td>
                 <td>
-                    <button type="button" class="btn btn-outline-primary">View</button>
+                    <a class="has-text-link" href="{{url_for('main.create_mission')}}">Edit mission</a>
+                    <a class="has-text-link" href="{{ url_for('main.shuttle') }}">
+                        {% if mission_detail.mission_shuttle_id %}
+                            Edit_shuttle
+                        {% else %}
+                            Select_shuttle
+                        {% endif %}
+                    </a>
+                    <a class="has-text-link" href="{{ url_for('main.candidate_list')}}">Select_candidates</a>
                 </td>
-                <td>03/06/2020</td>
-                <td>123 Clayton Rd, VIC,AU</td>
-                <td>30</td>
-                <td>Planning phase</td>
-                <td>
-                    <button type="button" class="btn btn-outline-primary">Edit</button>
-                    <button type="button" class="btn btn-outline-primary">Select shuttle</button>
-                    <button type="button" class="btn btn-outline-primary">Select candidates</button>
-                </td>
-    </div>
-    </th>
 
-    </tr>
-    <tr>
-        <th scope="row">
-            <!-- Default unchecked -->
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="tableDefaultCheck3">
-                <label class="custom-control-label" for="tableDefaultCheck3"></label>
-            </div>
-        </th>
+                <td>{{ mission_detail.mission_name }}</td>
+                <td>{{ mission_detail.mission_description }}</td>
+                <td>{{ mission_detail.mission_origin_country }}</td>
+                <td>{{ mission_detail.mission_countries_allowed }}</td>
+                <td>{{ mission_detail.mission_coordinator_id }}</td>
+                <td>{{ mission_detail.mission_employment_requirement }}</td>
+                <td>{{ mission_detail.mission_cargo_requirements }}</td>
+                <td>{{ mission_detail.mission_launch_date }}</td>
+                <td>{{ mission_detail.mission_location }}</td>
+                <td>{{ mission_detail.mission_duration }}</td>
+                <td>{{ mission_detail.mission_status}}</td>
+            </tr>
+            {% endfor %}
+            <!--            <tr>-->
+            <!--                <th scope="row">-->
+            <!--                    &lt;!&ndash; Default unchecked &ndash;&gt;-->
+            <!--                    <div class="custom-control custom-checkbox">-->
+            <!--                        <input type="checkbox" class="custom-control-input" id="tableDefaultCheck3">-->
+            <!--                        <label class="custom-control-label" for="tableDefaultCheck3"></label>-->
+            <!--                    </div>-->
+            <!--                </th>-->
 
-    </tr>
-    <tr>
-        <th scope="row">
-            <!-- Default unchecked -->
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="tableDefaultCheck4">
-                <label class="custom-control-label" for="tableDefaultCheck4"></label>
-            </div>
-        </th>
+            <!--            </tr>-->
+            <!--            <tr>-->
+            <!--                <th scope="row">-->
+            <!--                    &lt;!&ndash; Default unchecked &ndash;&gt;-->
+            <!--                    <div class="custom-control custom-checkbox">-->
+            <!--                        <input type="checkbox" class="custom-control-input" id="tableDefaultCheck4">-->
+            <!--                        <label class="custom-control-label" for="tableDefaultCheck4"></label>-->
+            <!--                    </div>-->
+            <!--                </th>-->
 
-    </tr>
-    </tbody>
-    <!-- Table body -->
-    </table>
+            <!--            </tr>-->
+            </tbody>
+            <!-- Table body -->
+        </table>
     </div>
 </form>
 

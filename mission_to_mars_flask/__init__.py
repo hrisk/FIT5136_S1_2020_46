@@ -4,14 +4,14 @@ from flask_login import LoginManager
 
 # init SQLAlchemy so we can use it later in our models
 db = SQLAlchemy()
-db_name = 'mission_to_mars'
 
 
 def create_app():
     app = Flask(__name__)
+    db_name = 'mission_to_mars'
 
     app.config['SECRET_KEY'] = '9OLWxND4o83j4K4iuopO'
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/' + db_name
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:@localhost/' + db_name
 
     db.init_app(app)
 
@@ -19,18 +19,18 @@ def create_app():
     login_manager.login_view = 'auth.login'
     login_manager.init_app(app)
 
-    # from .models import User
-    #
-    # @login_manager.user_loader
-    # def load_user(user_id):
-    #     # since the user_id is just the primary key of our user table, use it in the query for the user
-    #     return User.query.get(int(user_id))
-
-    from .model_employee import Employee
+    from .model_user import User
 
     @login_manager.user_loader
-    def load_user(employee_id):
-        return Employee.query.get(int(employee_id))
+    def load_user(user_id):
+        # since the user_id is just the primary key of our user table, use it in the query for the user
+        return User.query.get(int(user_id))
+
+    # from .model_employee import Employee
+    #
+    # @login_manager.user_loader
+    # def load_user(employee_id):
+    #     return Employee.query.get(int(employee_id))
 
     # blueprint for auth routes in our app
     from .auth import auth as auth_blueprint
@@ -41,3 +41,6 @@ def create_app():
     app.register_blueprint(main_blueprint)
 
     return app
+
+
+db.create_all(app=create_app())

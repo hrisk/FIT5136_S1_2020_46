@@ -20,9 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6df66596-c14b-4600-95f9-5809edd33160" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/add_mission.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/FIT5136_S1_2020_46.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FIT5136_S1_2020_46.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_candidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_candidate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_criteria.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_criteria.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_employee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_mission.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_mission.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/model_shuttle.py" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/model_shuttle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature3_addNewCri.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature3_addNewCri.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature5.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission_to_mars_flask/templates/feature_add.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +52,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -62,15 +81,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mission_to_mars_flask/app.py" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\static" />
       <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\templates" />
       <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask" />
       <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\img" />
       <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\db" />
-      <recent name="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\controllers" />
     </key>
   </component>
   <component name="RunManager" selected="Python.setup">
@@ -140,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="model_user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FIT5136_S1_2020_46" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,7 +172,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\models.py" />
+      <option name="SCRIPT_NAME" value="C:\xampp\htdocs\FIT5136_S1_2020_46\mission_to_mars_flask\model_user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,7 +206,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.setup" />
-        <item itemvalue="Python.models" />
+        <item itemvalue="Python.model_user" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.app" />
       </list>
@@ -213,6 +232,12 @@
       <workItem from="1590724590956" duration="92000" />
       <workItem from="1590751431317" duration="109000" />
       <workItem from="1590902607087" duration="549000" />
+      <workItem from="1591067963930" duration="20919000" />
+      <workItem from="1591277798604" duration="333000" />
+      <workItem from="1591278947559" duration="15913000" />
+      <workItem from="1591446983347" duration="28711000" />
+      <workItem from="1591478641728" duration="9000" />
+      <workItem from="1591516584924" duration="8235000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <created>1589948039182</created>
@@ -260,12 +285,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first draft" />
@@ -275,18 +301,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="latest code commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#Notifications" timestamp="1589947964706">
+    <state x="275" y="22" key="#Notifications" timestamp="1591278957544">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1589947964706" />
+    <state x="275" y="22" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1591278957544" />
     <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590115609497">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590115609497" />
-    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590656420727">
+    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591164285404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1590656420727" />
+    <state x="422" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1591164285404" />
+    <state x="511" y="207" key="#com.intellij.ide.actions.DebugLogConfigureAction" timestamp="1591476028842">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="511" y="207" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.0.1366.728@0.0.1366.728" timestamp="1591476028842" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590474391476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -299,6 +329,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590903229898" />
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1591476113682">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1591476113682" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1590412761525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -336,31 +370,35 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590477203880" />
-    <state x="241" y="32" key="SettingsEditor" timestamp="1590907000217">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state x="395" y="80" key="MultipleFileMergeDialog" timestamp="1591456370019">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590902685804" />
+    <state x="395" y="80" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1591456370019" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1591476047528">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591476047528" />
     <state x="241" y="32" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1590907000217" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1590637689236">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1591475195126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1590637689236" />
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1590902698504">
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1591475195126" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1591068023820">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.RecentChangeDialog/0.0.1366.728@0.0.1366.728" timestamp="1590902698504" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590902640242">
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.RecentChangeDialog/0.0.1366.728@0.0.1366.728" timestamp="1591068023820" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1591516587566">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590902640242" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591516587566" />
     <state x="372" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590654377017">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1590654377017" />
-    <state x="645" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590909295441">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591456348907">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1590902822344" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1591456348907" />
     <state x="645" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1590909295441" />
     <state x="494" y="327" width="604" height="490" key="find.popup" timestamp="1590908423017">
       <screen x="0" y="23" width="1792" height="1097" />
@@ -370,13 +408,28 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="670" y="328" key="git4idea.merge.GitPullDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590115523236" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1590647869651">
+    <state x="371" y="210" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1591279091388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590647869651" />
+    <state x="371" y="210" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.728@0.0.1366.728" timestamp="1591279091388" />
+    <state x="324" y="90" width="700" height="530" key="recent.locations.popup" timestamp="1591475198206">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="324" y="90" width="700" height="530" key="recent.locations.popup/0.0.1366.728@0.0.1366.728" timestamp="1591475198206" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591477211740">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591477211740" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/mission_to_mars_flask/static/moment.js</url>
+          <line>1579</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
