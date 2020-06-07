@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %} - candidate list {% endblock %}
+{% block content %}
+<h1 class="title">List of candidates based on criteria </h1>
+<form action="" type="POST">
+    <div class="">
+        <table class="table" id="candidate_list">
+            <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Qualification</th>
+                <th>Work Experience</th>
+                <th>Occupation</th>
+                <th>Health Record</th>
+                <th>Criminal Record</th>
+                <th>Computer Skills</th>
+                <th>Languages Spoken</th>
+                <th>Candidate Confirmation</th>
+            </tr>
+            </thead>
+            <tbody>
+                        <tr>
+                <td>
+                    <label for="candidate"></label>
+                </td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+
+            {% for candidate in candidates %}
+            <tr>
+                <td>
+                    <label for="candidate"></label>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+          <div class="row float-right">
+            <button type="submit" class="btn btn-primary">Finalize Recruitment</button>
+        </div>
+
+</form>
+{% endblock %}
